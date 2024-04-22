@@ -70,8 +70,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                                     className="carouselItem"
                                     onClick={() =>
                                         navigate(
-                                            `/${item.media_type || endpoint}/${
-                                                item.id
+                                            `/${item.media_type || endpoint}/${item.id
                                             }`
                                         )
                                     }
